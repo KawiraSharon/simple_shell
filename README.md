@@ -3,6 +3,33 @@ collaborators:
 >Lewis Mutiso
 >Sharon Kawira
 
+# Simple Shell (C)
+
+A lightweight UNIX command-line interpreter developed in C, featuring dynamic memory allocation, custom string parsing, and process control.
+
+## Collaborators
+* Lewis Mutiso
+* Sharon Kawira
+
+---
+
+## Technical Overview
+* **Built-in Command Handling:** Parses user inputs and identifies built-in shell commands (`exit`, `help`, `env`).
+* **Memory Management:** Implements custom memory cleanup functions (`memfrinfo`) to prevent leaks and handle resource deallocation.
+* **Command Execution & Status:** Tracks execution status and returns exit codes (0 for success, non-zero for error conditions).
+* **String Parsing:** Custom implementation of string tokenization (`strtok`) to decompose command-line inputs into executable arguments.
+
+---
+
+## Compilation & Execution
+
+Compile using `gcc` with strict flags:
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+```
+
+
 Man document
 d_typeinfo - struct that has all info that'll help me find builtin commands
 search_builtin - looks for a builtin command within the shell or program; function call 
