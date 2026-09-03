@@ -1,9 +1,3 @@
-ALX SIMPLE SHELL PROJECT
-collaborators:
->Sharon Kawira
-and
->Lewis Mutiso
-
 # Simple Shell (C)
 
 A lightweight UNIX command-line interpreter developed in C, featuring dynamic memory allocation, custom string parsing, and process control.
@@ -50,3 +44,9 @@ Handler Functions - blocks of code that process certain tasks within the entire 
 strtoken file 
 the custom function to split a string into tokens; strtok
 
+
+ALX SIMPLE SHELL PROJECT
+collaborators:
+>Sharon Kawira
+and
+>Lewis Mutiso
