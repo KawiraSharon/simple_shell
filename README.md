@@ -1,7 +1,8 @@
 ALX SIMPLE SHELL PROJECT
 collaborators:
->Lewis Mutiso
 >Sharon Kawira
+and
+>Lewis Mutiso
 
 # Simple Shell (C)
 
